@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(218, 23%, 16%);
+}
+body .container {
+  background-color: hsl(217, 19%, 24%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  font-family: Manrope;
+  border-radius: 10px;
+  max-width: 500px;
+  min-width: 330px;
+  position: relative;
+  padding-bottom: 3em;
+}
+body .container .header-section {
+  margin-top: 2em;
+  color: hsl(150, 100%, 66%);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  font-size: small;
+}
+body .container .body-section {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  margin: 15px;
+  max-width: 370px;
+}
+body .container .footer-section {
+  display: flex;
+  background-color: hsl(150, 100%, 66%);
+  padding: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 88%;
+}
+body .container .footer-section img {
+  scale: 0.8s;
+}
+body .container .footer-section:hover {
+  box-shadow: 0 0 10px 2px hsl(150, 100%, 66%);
+  transition: all ease-in-out 0.05s;
+}/*# sourceMappingURL=styles.css.map */
